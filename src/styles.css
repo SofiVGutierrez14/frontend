@@ -1,1 +1,131 @@
-/* You can add global styles to this file, and also import other style files */
+a{
+  text-decoration: none;
+}
+
+  /*fondo*/
+
+  #fondo {
+
+    flex-wrap: wrap;
+    margin-top: -1%;
+    height: 100%;
+
+
+        background-repeat:no-repeat;
+       background-size: cover;
+       height:100%
+      }
+
+      /*cierre fondo*/
+
+
+  /*banner*/
+
+  .carrusel{
+      height: 400px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-image: url(../../frontend/Assets/IMG/galaxyyyyy.jpg);
+
+  }
+
+
+  /*cierre de banner*/
+
+/*edicion lapiz y cruz */
+
+  .bi.bi-file-x:hover{
+    cursor: pointer;
+  color:#6c1cc7
+  }
+
+  .bi.bi-pencil:hover{
+     color:#6c1cc7;
+     cursor: pointer;
+  }
+
+
+  .bi.bi-pencil{
+
+    top:25%;
+    left: 96%;
+     display: flex;
+
+     height: 20px;
+     width: 20px;
+     position:relative
+
+     ;
+    }
+
+    .bi.bi-file-x{
+        top: 25%;
+        margin-top: -22px;
+        left: 98%;
+        display: flex;
+
+        height: 25px;
+        width: 25px;
+        position:relative
+
+    }
+/*cierre edicion*/
+
+/*estilos botones de modales*/
+button.btn.btn-primary {
+  --bs-btn-color:#fff;
+  --bs-btn-bg: #6c1cc7;
+  --bs-btn-border-color:#fff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg:#6c1cc7;
+  --bs-btn-hover-border-color:#6c1cc7 ;
+  --bs-btn-focus-shadow-rgb:#6c1cc7;
+  --bs-btn-active-bg: #a15cc8;
+  --bs-btn-active-border-color:#a15cc8;
+  --bs-btn-disabled-bg: #a15cc8;
+  --bs-btn-disabled-border-color: #a15cc8;
+}
+
+
+div#v-pills-tab {
+  --bs-nav-pills-border-radius: 0.375rem;
+  --bs-nav-pills-link-active-color: #fff;
+  --bs-nav-pills-link-active-bg:#6c1cc7;
+}
+
+div#v-pills-tab {
+  --bs-nav-link-padding-x: 1rem;
+  --bs-nav-link-padding-y: 0.5rem;
+  --bs-nav-link-font-weight: ;
+  --bs-nav-link-color: rgb(5, 5, 5);
+  --bs-nav-link-hover-color: rgb(33 37 41);
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/*cierre estilos*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
