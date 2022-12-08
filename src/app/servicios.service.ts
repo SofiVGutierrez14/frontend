@@ -7,6 +7,6 @@ export class ServiciosService {
 
   constructor() { }
   obtenerDatos(){
-    console.log("El servicio esta funcionando");
+    console.log();
   }
 }

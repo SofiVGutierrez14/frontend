@@ -1,0 +1,74 @@
+/*barra de navegacion*/
+.navbar.navbar-expand-lg.bg-info{
+  background: rgb(27,0,36);
+  background: linear-gradient(90deg, rgb(28, 1, 51) 15%, rgb(90, 39, 173) 65%, rgb(167, 113, 248) 100%);
+  }
+
+  .list-group.list-group-horizontal{
+      margin-left: auto;
+  }
+
+
+  .list-group-item{
+      --bs-list-group-bg: transparent
+
+  }
+  .list-group-item{
+  --bs-list-group-border-color: none
+  }
+
+  .list-group-item{
+      margin-left: -10%;
+  }
+
+
+
+  .bi.bi-unlock{
+      color: #fff;
+  }
+  .bi.bi-unlock:hover{
+      color: rgb(46, 217, 232);
+  }
+
+  svg.bi.bi-instagram{
+      cursor:pointer
+    }
+      svg.bi.bi-instagram{
+        color:#fff
+
+
+      }
+
+      svg.bi.bi-instagram:hover{
+    color: rgb(244, 100, 158);
+
+      }
+
+      svg.bi.bi-facebook{
+        cursor:pointer
+      }
+
+     svg.bi.bi-facebook{
+    color: #fff;
+     }
+
+     svg.bi.bi-facebook:hover{
+      color: rgb(29, 45, 219);
+       }
+
+       svg.bi.bi-linkedin{
+        cursor:pointer
+      }
+
+      svg.bi.bi-linkedin{
+        color: white;
+      }
+
+      svg.bi.bi-linkedin:hover{
+        color: rgb(45, 79, 187);
+      }
+
+
+
+
+  /* cierre barra de navegacion*/

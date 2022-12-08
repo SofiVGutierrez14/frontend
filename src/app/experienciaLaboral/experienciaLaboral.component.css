@@ -1,0 +1,57 @@
+
+
+    /*experiencia laboral*/
+
+    .experienciaLaboral{
+
+ min-width: 250px;
+
+   height: 400px;
+   width: 100%;
+  }
+
+
+
+  .exp{
+
+      width: 100%;
+        align-items: center;
+      margin-top: 1.5%;
+    display: flex;
+      justify-content: center;
+  }
+  .mensajeExperiencia{
+
+      margin: 15%;
+      display: flex;
+      margin-top:0%;
+      padding:1%
+
+  }
+
+  .bi.bi-pencil{
+
+  top:25%;
+  left: 96%;
+   display: flex;
+
+   height: 20px;
+   width: 20px;
+   position:relative
+
+   ;
+  }
+
+  .bi.bi-file-x{
+      top: 25%;
+      margin-top: -22px;
+      left: 98%;
+      display: flex;
+
+      height: 25px;
+      width: 25px;
+      position:relative
+
+  }
+
+  /*cierre experiencia laboral*/

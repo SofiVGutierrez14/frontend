@@ -10,7 +10,7 @@ a{
     margin-top: -1%;
     height: 100%;
 
-
+background-image: url(../../proyectoportfolioangular/src/assets/IMG/panal.jpg);
         background-repeat:no-repeat;
        background-size: cover;
        height:100%
@@ -18,19 +18,6 @@ a{
 
       /*cierre fondo*/
 
-
-  /*banner*/
-
-  .carrusel{
-      height: 400px;
-      width: 100%;
-      background-repeat: no-repeat;
-      background-image: url(../../frontend/Assets/IMG/galaxyyyyy.jpg);
-
-  }
-
-
-  /*cierre de banner*/
 
 /*edicion lapiz y cruz */
 
@@ -47,27 +34,23 @@ a{
 
   .bi.bi-pencil{
 
-    top:25%;
-    left: 96%;
-     display: flex;
+
+    display: flex;
 
      height: 20px;
      width: 20px;
-     position:relative
+
 
      ;
     }
 
     .bi.bi-file-x{
-        top: 25%;
-        margin-top: -22px;
-        left: 98%;
+
+
         display: flex;
 
         height: 25px;
         width: 25px;
-        position:relative
-
     }
 /*cierre edicion*/
 
