@@ -1,60 +1,117 @@
 a{
   text-decoration: none;
+
 }
 
-  /*fondo*/
 
-  #fondo {
+#fondo{
+  -webkit-animation: move 1s linear infinite forwards;
+  animation: move 1s linear infinite forwards;
+  background: #02021a;
+  font-family: Inter,sans-serif;
+  min-height: 100vh;
+}
 
-    flex-wrap: wrap;
-    margin-top: -1%;
-    height: 100%;
+* {
+  box-sizing: border-box;
 
-background-image: url(../../proyectoportfolioangular/src/assets/IMG/panal.jpg);
-        background-repeat:no-repeat;
-       background-size: cover;
-       height:100%
-      }
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  z-index: 1;
+}
 
-      /*cierre fondo*/
+body:after, body::before {
+  content: "";
+  -webkit-filter: blur(140px);
+  filter: blur(140px);
+  height: 200px;
+  position: fixed;
+  width: 200px;
+  margin-top:25%
+}
+body::before{
+  background: #0ff;
+}
+
+.bg-circle1 {
+  -webkit-filter: blur(140px);
+  filter: blur(140px);
+  height: 200px;
+  position: fixed;
+  width: 200px;
+}
+.bg-circle2{
+  -webkit-filter: blur(140px);
+  filter: blur(140px);
+  height: 200px;
+  position: fixed;
+  width: 200px;
+}
+
+.bg-circle1 {
+  background: #0ff;
+  bottom: 150%;
+  right: 0;
+  top: 50%;
+}
+.bg-circle2{
+
+    background: #b700ff;
+    bottom: 200px;
+    right: 200px;
+    top: 80%;
+
+}
+
+.root {
+  --color-pri: #52bcfa;
+  --color-pri-light: rgba(82,188,250,.445);
+  --color-sec: #ac11e9;
+  --color-sec-light: rgba(172,17,233,.274);
+  --pc-width: 70%;
+  --tab-width: 90%;
+  --phone-width: 100%;
+}
+
+body:after {
+  background: #b700ff;
+  left: 250px;
+  top: 200px;
+}
+
+body:after, body:before {
+  content: "";
+  -webkit-filter: blur(140px);
+  filter: blur(140px);
+  height: 200px;
+  position: fixed;
+  width: 200px;
+}
 
 
 /*edicion lapiz y cruz */
-
+.bi.bi-file-x{
+  color:#fff
+}
   .bi.bi-file-x:hover{
     cursor: pointer;
-  color:#6c1cc7
+  color:#0ff
   }
 
+  .bi.bi-pencil{
+    color: #fff;
+  }
   .bi.bi-pencil:hover{
-     color:#6c1cc7;
+     color:#0ff;
      cursor: pointer;
   }
 
 
-  .bi.bi-pencil{
-
-
-    display: flex;
-
-     height: 20px;
-     width: 20px;
-
-
-     ;
-    }
-
-    .bi.bi-file-x{
-
-
-        display: flex;
-
-        height: 25px;
-        width: 25px;
-    }
 /*cierre edicion*/
 
 /*estilos botones de modales*/
+
 button.btn.btn-primary {
   --bs-btn-color:#fff;
   --bs-btn-bg: #6c1cc7;
@@ -70,24 +127,26 @@ button.btn.btn-primary {
 }
 
 
-div#v-pills-tab {
-  --bs-nav-pills-border-radius: 0.375rem;
-  --bs-nav-pills-link-active-color: #fff;
-  --bs-nav-pills-link-active-bg:#6c1cc7;
+
+
+
+
+
+
+.modal-content{
+  position: absolute;
+transform: translate(-50%,-50%);
+  background: #110429;
+  box-shadow: 0 15px 25px rgba(143,124,236,0.7);
+  border-radius: 10px;
+  color:#fff
 }
 
-div#v-pills-tab {
-  --bs-nav-link-padding-x: 1rem;
-  --bs-nav-link-padding-y: 0.5rem;
-  --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: rgb(5, 5, 5);
-  --bs-nav-link-hover-color: rgb(33 37 41);
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+h4{
+  font-size: 25px;
+  font-family: Open Sans,sans-serif;
 }
+
 
 /*cierre estilos*/
 
