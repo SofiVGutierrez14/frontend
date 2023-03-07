@@ -20,7 +20,7 @@ import { InterceptorService } from './servicios/interceptor.service';
 import { ModalAcercademiAddComponent } from "./acercademi/modal-acercademi-add/modal-acercademi-add.component";
 import { ModalEducacionAddComponent } from "./educacion/modal-educacion-add/modal-educacion-add.component";
 import { ModalPerfilAddComponent } from "./perfil/modal-perfil-add/modal-perfil-add.component";
-import { ModalExperienciaComponent } from "./experienciaLaboral/modal-experiencia/modal-experiencia.component";
+import { ModalExperienciaComponent } from "./experienciaLaboral/modal-experiencia-add/modal-experiencia.component";
 import { ModalHysComponent } from "./hys/modal-hys/modal-hys.component";
 import { ReactiveFormsModule } from '@angular/forms';
 
